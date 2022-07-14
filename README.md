@@ -1,8 +1,14 @@
-<h3>ყველა ბრძანება, რომელიც მოქცეულია სერ ფონში, შეგყავთ ცალ-ცალკე!</h3> 
+<h3>ყველა ბრძანება, რომელიც მოქცეულია სერ ფონში, შეგყავთ ცალ-ცალკე!</h3>
+  
+  
+  <h3>
+სერ ფონში მოქცეული ბრძანებები კოპირდება და შეგყავთ ერთიანად</h3> 
+
+
+<h3> კოდი არის ავტომატური ფუნქციონალის</h3>
 
 გარდა დასაწყისისა, სადაც უნდა ჩაწეროთ თქვენი node სახელი. 
 
-<h3> კოდი არის ავტომატური ფუნქციონალის</h3>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="wget -O stride.sh https://raw.githubusercontent.com/kj89/testnet_manuals/main/stride/stride.sh &amp;&amp; chmod +x stride.sh &amp;&amp; ./stride.sh"><pre class="notranslate"><code>wget -O stride.sh https://raw.githubusercontent.com/kj89/testnet_manuals/main/stride/stride.sh &amp;&amp; chmod +x stride.sh &amp;&amp; ./stride.sh
 </div></code>
 
