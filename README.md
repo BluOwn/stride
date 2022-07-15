@@ -100,3 +100,25 @@ https://poolparty.stride.zone/STRIDE
 
 https://poolparty.stride.zone/STRIDE/staking
 
+
+
+<h3>Basic Firewall security</h3>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="sudo ufw status"><pre class="notranslate"><code>sudo ufw status
+</code></pre></div>
+
+
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="sudo ufw default allow outgoing
+sudo ufw default deny incoming
+sudo ufw allow ssh/tcp
+sudo ufw limit ssh/tcp
+sudo ufw allow ${STRIDE_PORT}656,${STRIDE_PORT}660/tcp
+sudo ufw enable"><pre class="notranslate"><code>sudo ufw default allow outgoing
+sudo ufw default deny incoming
+sudo ufw allow ssh/tcp
+sudo ufw limit ssh/tcp
+sudo ufw allow ${STRIDE_PORT}656,${STRIDE_PORT}660/tcp
+sudo ufw enable
+</code></pre></div>
+
+
+
